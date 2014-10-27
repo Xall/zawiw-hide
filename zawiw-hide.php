@@ -36,7 +36,7 @@ function zawiw_hide_shortcode( $atts, $content = null )
 function zawiw_hide_queue_script()
 {
     wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'zawiw_poll_script', plugins_url( 'helper.js', __FILE__ ) );
+    wp_enqueue_script( 'zawiw_hide_script', plugins_url( 'helper.js', __FILE__ ) );
 
 }
 
